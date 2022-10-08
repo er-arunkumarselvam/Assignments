@@ -9,8 +9,7 @@ System.out.println("After booking ticket " + balance_amount); //Concatination Op
 int bookTicket(int ticket) 
 {
 int ticket_price = 120;
-int result = ticket-ticket_price;
-int balance =result;
+int balance = ticket-ticket_price;
 return balance; //return this value of balance
 }
 }
